@@ -15,6 +15,8 @@ then
   sleep infinity
 fi
 
+mkdir -p $BASE_DIR
+
 case ${NVME_COUNT} in
 "0")
   printf "There are no 'Amazon EC2 NVMe Instance Storage' devices.\n"
